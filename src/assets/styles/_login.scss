@@ -1,0 +1,126 @@
+//== login
+.login-box .modal {
+  width: 390px;
+  border-radius: 14px;
+
+  hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #f2f2f2;
+  }
+
+  .modal-head {
+
+    h3 {
+      padding: 16px 0 20px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: normal;
+      text-align: center;
+      color: #230f3b;
+    }
+  }
+  .modal-body {
+    padding-top: 24px;
+    text-align: center;
+    input {
+      display: block;
+      margin: 0 auto;
+      width: 280px;
+      height: 46px;
+      margin-bottom: 17px;
+      padding: 8px;
+      border-radius: 8px;
+      background-color: #f7f7f7;
+
+      @include placeholder(12px, #ccc);
+    }
+
+    p {
+      width: 280px;
+      height: 20px;
+      margin: 0 auto;
+      font-size: 11px;
+      text-align: left;
+      color: #e74c3c;
+    }
+
+    .js-submit {
+      width: 280px;
+      height: 50px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      color: #230f3b;
+      background-color: #ffc300;
+    }
+
+    .sign {
+      padding: 28px;
+
+      .js-signup,
+      .js-findpass {
+        display: inline-block;
+        font-size: 11px;
+        font-weight: bold;
+        color: #230f3b;
+        vertical-align: middle;
+      }
+    }
+
+    .or {
+      width: 280px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+
+    .social {
+      padding-bottom: 24px;
+
+      h4 {
+        padding-bottom: 14px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #230f3b;
+      }
+
+      .js-social {
+         box-sizing: border-box;
+         display: inline-block;
+         vertical-align: middle;
+         width: 50px;
+         height: 50px;
+         margin: 0 9px;
+         border-radius: 50%;
+         text-align: center;
+
+         img {
+           vertical-align: top;
+           width: 24px;
+         }
+
+        &.js-eos {
+          background: #230f3b;
+        }
+
+        &.js-facebook {
+          background: #475993;
+        }
+
+        &.js-google {
+          border: solid 1px #dadada;
+        }
+
+        &.js-kakao {
+          background: #f7e318;
+          color: #3c1e1e;
+        }
+      }
+    }
+  }
+
+  .js-close {
+    top: 34px; right: 39px;
+  }
+}

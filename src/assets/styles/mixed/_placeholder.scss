@@ -1,0 +1,20 @@
+// Typography placeholder
+
+@mixin placeholder($size, $color ) {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: $size;
+    color: $color;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    font-size: $size;
+    color: $color;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    font-size: $size;
+    color: $color;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    font-size: $size;
+    color: $color;
+  }
+}

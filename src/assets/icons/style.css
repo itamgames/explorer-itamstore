@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'itamasset';
+  src:  url('fonts/itamasset.eot?i2tpt6');
+  src:  url('fonts/itamasset.eot?i2tpt6#iefix') format('embedded-opentype'),
+    url('fonts/itamasset.ttf?i2tpt6') format('truetype'),
+    url('fonts/itamasset.woff?i2tpt6') format('woff'),
+    url('fonts/itamasset.svg?i2tpt6#itamasset') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'itamasset' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e945";
+}
+.icon-download2:before {
+  content: "\e9c5";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-game-list:before {
+  content: "\e90d";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-arrow-box-down:before {
+  content: "\e905";
+}
+.icon-arrow-down-light:before {
+  content: "\e904";
+}
+.icon-arrow-right:before {
+  content: "\e903";
+}
+.icon-arrow-right-light:before {
+  content: "\e908";
+}
+.icon-medium:before {
+  content: "\e900";
+}
+.icon-telegram:before {
+  content: "\e901";
+}
+.icon-itam:before {
+  content: "\e902";
+}
+.icon-arrow-right-thick:before {
+  content: "\e90b";
+}
+.icon-arrow-left-thick:before {
+  content: "\e90c";
+}
+.icon-play-up:before {
+  content: "\e909";
+}
+.icon-play-down:before {
+  content: "\e90a";
+}

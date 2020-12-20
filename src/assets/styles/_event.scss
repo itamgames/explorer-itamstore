@@ -1,0 +1,180 @@
+//== event
+.event {
+  padding-bottom: 40px;
+
+  .intro {
+    text-align: center;
+    height: 335px;
+    margin-bottom: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top ;
+  }
+
+  .request {
+    box-sizing: border-box;
+    width: $body-width;
+    padding: 30px 40px 23px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    background: #fff;
+
+    h2 {
+      float: left;
+      display: inline-block;
+      font-size: 28px;
+      font-weight: bold;
+      color: #08030d;
+    }
+
+    .sendmail {
+      float: right;
+
+      input[type="text"] {
+        width: 280px;
+        height: 44px;
+        padding: 11px;
+        margin-right: 11px;
+        border-radius: 2px;
+        background-color: #e8e8e8;
+      }
+
+      .js-send {
+        width: 128px;
+        height: 44px;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 900;
+        color: #ffffff;
+        background-color: #ffc400;
+
+        &[disabled="disabled"] {
+          background: #e8e8e8;
+          cursor: not-allowed;
+        }
+      }
+
+      label {
+        font-size: 11px;
+        color: #9b9b9b;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .contents {
+    box-sizing: border-box;
+    width: $body-width;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    background: #fff;
+
+    h3 {
+      padding-bottom: 13px;
+      border-bottom: 1px solid #e8e8e8;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #230f3b;
+    }
+
+    h5 {
+      padding-bottom: 4px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #4d4d4d;
+
+      &.point {
+        color: #472185;
+      }
+    }
+
+    p {
+      padding-bottom: 30px;
+      font-size: 14px;
+      color: #4d4d4d;
+
+      &.point {
+        color: #472185;
+      }
+    }
+
+    li {
+      font-size: 14px;
+      line-height: 1.64;
+      color: #4d4d4d;
+    }
+  }
+
+  .game-info {
+    padding-top: 85px;
+
+    .screenshot {
+      width: 100%;
+      margin-left: -7px;
+      margin-right: -7px;
+      font-size: 0;
+
+      li {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 33.3333%;
+        padding: 7px;
+
+        .photo img {
+          width: 100%;
+        }
+
+        .js-playMovie {
+          position: relative;
+          width: 100%;
+
+          span {
+            position: absolute;
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+          }
+
+        }
+
+      }
+    }
+
+    .copy {
+      padding: 34px 0;
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 1.53;
+      color: #230f3b;
+    }
+
+    .con {
+      h5 {
+        font-size: 14px;
+        color: #472185;
+        font-weight: normal;
+      }
+
+      ul {
+        padding-bottom: 30px;
+
+        &.point li {
+          color: #472185;
+        }
+      }
+    }
+
+    .cafe {
+      font-size: 14px;
+      color: #4d4d4d;
+      a {
+        color: #4d4d4d;
+        &:hover {
+          color: #472185;
+        }
+      }
+    }
+  }
+}

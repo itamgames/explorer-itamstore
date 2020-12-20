@@ -1,0 +1,10 @@
+// Typography multiline ellipsisis
+
+@mixin multiline_ellipsis( $num ) {
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: $num;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

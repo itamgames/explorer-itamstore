@@ -1,0 +1,339 @@
+//== 추천인 이벤트
+.referral {
+  padding: 40px 0;
+  background: url(./assets/images/event/referral/referral-bg.png) no-repeat center top 15px #4c2bd5;
+
+  &-title {
+    h1 {
+      width: 907px;
+      margin: 0 auto;
+      img { width: 100% }
+    }
+
+    .summery {
+      position: relative;
+      width: 621px;
+      height: 135px;
+      margin: 0 auto;
+      margin-top: -50px;
+      font-size: 0;
+      background: url(./assets/images/event/referral/summery-bg.png) no-repeat center top;
+      background-size: contain;
+
+      .msg {
+        display: inline-block;
+        vertical-align: middle;
+        width: 321px;
+        padding-top: 20px;
+        font-size: 15px;
+        font-weight: 900;
+        color: #d5c3fe;
+        text-align: center;
+      }
+
+      .tokken {
+        display: inline-block;
+        vertical-align: middle;
+        width: 250px;
+        padding-top: 45px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 900;
+        color: #662ec3;
+        b {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .tokens {
+      width: 774px;
+      height: 72px;
+      margin: 0 auto;
+      background: url(./assets/images/event/referral/tokens.png) no-repeat center top;
+    }
+  }
+  .wrap {
+    box-sizing: border-box;
+    width: 860px;
+    padding: 55px;
+    border-radius: 42px;
+    background-color: #ffffff;
+  }
+
+  .event-title {
+    width: 680px;
+    padding-bottom: 45px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 29px;
+      font-weight: 300;
+      color: #662ec3;
+
+      span {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      b {
+        font-size: 46px;
+        font-weight: bold;
+      }
+
+      img {
+        width: 70px;
+        margin-right: 10px;
+      }
+    }
+
+    p {
+      padding-left: 80px;
+      padding-bottom: 24px;
+      font-size: 14px;
+      font-weight: 300;
+      color: #545454;
+
+      &.point {
+        display: inline-block;
+        padding: 4px 25px;
+        margin-left: 70px;
+        border-radius: 12.5px;
+        background-color: #e5e5e5;
+      }
+    }
+
+    &.event2 {
+      padding: 82px 0 37px;
+      h2 {
+        font-size: 29px;
+        font-weight: 300;
+        line-height: 1.2;
+        color: #662ec3;
+
+        b {
+          font-size: 30px;
+          font-weight: bold;
+          color: #662ec3;
+        }
+      }
+
+      p {
+        padding-top: 4px;
+      }
+    }
+  }
+
+  .rank {
+    height: 188px;
+    border-radius: 94px;
+    text-align: center;
+    background: #e5e5e5;
+
+    ul {
+      display: inline-block;
+    }
+    li {
+      box-sizing: border-box;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      width: 160px;
+      height: 178px;
+      padding-top: 53px;
+      text-align: center;
+      color: #fff;
+      background: url(./assets/images/event/referral/rank2-bg.png) no-repeat center top;
+      background-size: 136px;
+
+      .ico img {
+        width: 40px;
+      }
+
+      .coin {
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: -1.2px;
+        color: #fff;
+      }
+
+      .unit {
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: -0.5px;
+        color: #fff;
+      }
+
+      .user-rank {
+        padding-top: 4px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.7px;
+        color: #fff;
+        text-decoration: underline;
+      }
+
+      &.rank1 {
+        width: 200px;
+        height: 225px;
+        padding-top: 67px;
+        background: url(./assets/images/event/referral/rank1-bg.png) no-repeat center top;
+        background-size: 192px;
+
+        .user-rank {
+          padding-top: 8px;
+          font-size: 25px;
+          font-weight: normal;
+          color: #ffffff;
+          text-decoration: none;
+          b {
+            font-size: 31px;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        background-image: url(./assets/images/event/referral/rank3-bg.png);
+      }
+
+      &:nth-child(4) {
+        background-image: url(./assets/images/event/referral/rank4-bg.png);
+      }
+
+
+    }
+  }
+
+  .event-reward {
+    text-align: center;
+
+    &__cell {
+      display: inline-block;
+      padding-bottom: 20px;
+    }
+    &__check,
+    &__ico,
+    &__reward {
+      box-sizing: border-box;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 17px;
+      font-weight: 500;
+      letter-spacing: -0.8px;
+    }
+    &__check {
+      height: 45px;
+      padding: 0 25px;
+      line-height: 45px;
+      margin-top: -12px;
+      border-radius: 4px 0 0 4px;
+      color: #fff;
+      background: #5630c8;
+
+      span {
+        color: #4acaa4;
+      }
+    }
+
+    &__reward {
+      position: relative;
+      max-width: 450px;
+      height: 45px;
+      padding: 0 25px;
+      line-height: 1.1;
+      margin-top: 9px;
+      border-radius: 0 4px 4px 0;
+      font-size: 15px;
+      color: #6d7278;
+      background: #e5e5e5;
+
+      .con {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+      }
+
+      span {
+        color: #6236ff;
+      }
+    }
+
+    &__option {
+      text-align: right;
+      font-size: 12px;
+      font-weight: 500;
+      color: #5630c8;
+    }
+  }
+
+
+  .event-members {
+    width: 100%;
+    padding-top: 50px;
+    margin: 0 auto;
+
+    h3 {
+      position: relative;
+      margin-bottom: 18px;
+      font-size: 23px;
+      font-weight: 500;
+      color: #222;
+    }
+
+    .tbl {
+      width: 100%;
+      border-collapse: collapse;
+
+      thead {
+        background-color: #5630c8;
+
+        th {
+          height: 57px;
+          font-size: 14px;
+          font-weight: 500;
+          color: #fff;
+
+          span,
+          small {
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          small {
+            font-size: 11px;
+            font-weight: bold;
+            color: #f7b500;
+          }
+        }
+      }
+
+      tbody {
+        th,
+        td {
+          padding: 20px 0;
+          font-size: 14px;
+          font-weight: 300;
+          text-align: center;
+          color: #282828;
+
+          &.align-left {
+            text-align: left;
+          }
+
+          .eos {
+            font-size: 14px;
+            font-weight: bold;
+            color: #0091ff;
+          }
+        }
+
+        td:last-child {
+          font-weight: bold;
+          color: #5630c8;
+        }
+      }
+    }
+  }
+
+}
